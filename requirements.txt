@@ -1,9 +1,16 @@
+# Data processing and analysis libraries
 numpy>=1.26,<3.0
 pandas>=2.0
-mne>=1.6
-tensorflow==2.16.1
-scikit-learn>=1.3
-python-picard
-jupyterlab>=4.0
 matplotlib
 seaborn
+
+# EEG/MEG processing library
+mne>=1.6
+python-picard
+
+#ML and DL libraries
+tensorflow==2.16.1
+scikit-learn>=1.3
+
+# IDE and notebook support
+jupyterlab>=4.0
