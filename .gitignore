@@ -1,0 +1,14 @@
+# env files duh
+.env
+
+# dont let data sneak in at allllllll
+raw_dataset
+preprocessed_data
+*.edf
+*.npz
+
+# other config files that dont need to go there
+.ipynb_checkpoints
+.Trash-0
+.siena
+jupyter-settings

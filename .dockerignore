@@ -1,0 +1,64 @@
+.git
+.gitignore
+__pycache__
+*.pyc
+*.pyo
+*.egg-info
+.pytest_cache
+.vscode
+.DS_Store
+*.ipynb_checkpoints
+README.md
+# =========================
+# Git & editor
+# =========================
+.git/
+.gitignore
+.vscode/
+.DS_Store
+
+# =========================
+# Python junk
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info
+.pytest_cache/
+.ipynb_checkpoints/
+
+# =========================
+# Virtual environments (CRITICAL)
+# =========================
+.siena/
+venv/
+.venv/
+
+# =========================
+# DATASETS (CRITICAL)
+# =========================
+raw_dataset/
+preprocessed_data/
+
+# =========================
+# Large numerical files
+# =========================
+*.npz
+*.npy
+*.csv
+*.parquet
+*.pkl
+
+# =========================
+# Training artifacts
+# =========================
+models/
+checkpoints/
+logs/
+outputs/
+
+# =========================
+# Env & secrets
+# =========================
+.env
+.env.*
