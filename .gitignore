@@ -4,6 +4,7 @@
 # dont let data sneak in at allllllll
 raw_dataset
 preprocessed_data
+preprocessed_data_2
 *.edf
 *.npz
 
@@ -12,3 +13,4 @@ preprocessed_data
 .Trash-0
 .siena
 jupyter-settings
+model_checkpoints
