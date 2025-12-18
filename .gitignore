@@ -3,8 +3,7 @@
 
 # dont let data sneak in at allllllll
 raw_dataset
-preprocessed_data
-preprocessed_data_3
+preprocessed_data/
 *.edf
 *.npz
 
@@ -14,3 +13,7 @@ preprocessed_data_3
 .siena
 jupyter-settings
 model_checkpoints
+
+# i command you to let these files through
+!preprocessed_data_3/
+!preprocessed_data_3/*.npz
